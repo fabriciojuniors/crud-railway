@@ -21,7 +21,7 @@ public class DeployRailwayApplication {
 				registry.addMapping("/**")
 						.allowedOrigins("*")
 						.allowedHeaders("*")
-						.allowedHeaders("*");
+						.allowedMethods("*");
 			}
 		};
 	}
